@@ -1,7 +1,8 @@
 # Artists-Gallery
 ## This app was built with React js.
 
-To start this app :-
+### To start this app :-
+
 1- clone this repo.
 2- cd to the directory containing this repo locally.
 3- run 'npm install' command to install app dependecies.
