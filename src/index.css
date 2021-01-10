@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.unsplash.com/photo-1598812866501-87ad598839e7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80");
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+
+#head {
+  background-image: url("./cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 975px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#headtitle {
+  font-family: "Monoton", cursive;
+  font-weight: 900;
+  font-size: 90px;
+  color: lightgrey;
+  text-decoration: none;
+  margin: 450px auto 0;
+}
+
+#headtitle:hover {
+  color: rgb(117, 180, 182);
+}
+
+#brotitle {
+  color: darkgoldenrod;
+  font-family: "Chewy", cursive;
+  font-size: 72pt;
+  margin-bottom: 100px;
+}
+
+#brotitle:hover {
+  color: rgb(204, 23, 93);
+}
+
+#errHead {
+  color: darkslategrey;
+  font-family: "Chewy", cursive;
+  font-size: 60pt;
+}
+
+#copyRight {
+  color: goldenrod;
+  font-size: 18pt;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+#copyRight:hover {
+  color: crimson;
+}
+
+a:hover {
+  text-decoration: none;
+  color: darkkhaki;
+}
+
+.btn:hover {
+  background-color: chocolate;
+}
+
+#backHead {
+  font-family: "Monoton", cursive;
+  font-weight: 800;
+  font-size: 40px;
+  color: lightgrey;
+  text-decoration: none;
+  margin: 20px auto 0;
+}
+
+#backHead:hover {
+  font-size: 50px;
+  color: chocolate;
+}
+
+hr {
+  size: 3;
+  border: 2px solid white;
+}
+
+#covImg {
+  border-style: ridge;
+  height: 80%;
+  margin-bottom: 0;
+}
+
+#artName {
+  color: rgb(207, 79, 28);
+  font-family: "Chewy", cursive;
+  font-size: 50pt;
+}
+
+#artName:hover {
+  color: mediumslateblue;
+}
+
+#secName {
+  color: wheat;
+  font-family: "Chewy", cursive;
+  font-size: 40pt;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#secName:hover {
+  color: mediumslateblue;
+}
+
+#secPara {
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+#secPara:hover {
+  color: darkred;
+}
+
+#genName {
+  color: wheat;
+  font-family: "Chewy", cursive;
+  font-size: 40pt;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+#genName:hover {
+  color: mediumslateblue;
+}
+
+#errH {
+  color: red;
+  font-family: "Black Ops One", cursive;
+  font-size: 150px;
+}
+
+#errM {
+  color: gold;
+  font-family: "Chewy", cursive;
+  font-size: 40px;
+}
