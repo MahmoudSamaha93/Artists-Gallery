@@ -9,7 +9,7 @@ class Artists extends Component {
             artists: []
         }
 
-        this.URL = 'http://localhost:3300/artists';
+        this.URL = 'https://my-json-server.typicode.com/MahmoudSamaha93/Artists-Gallery/artists';
     }
 
     renderArtits({ artists }) {
