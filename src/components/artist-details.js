@@ -6,7 +6,7 @@ const ArtistDetails = ({match}) => {
     
     let [artist, setArtist] = useState({});
     let [albums, setAlbums] = useState([]);
-    let URL = `https://master.d1h03s0plami48.amplifyapp.com/artists/${match.params.id}`;
+    let URL = `https://my-json-server.typicode.com/MahmoudSamaha93/Artists-Gallery/artists/${match.params.id}`;
 
     useEffect(() => {
         fetch(URL, { method: 'GET' })
